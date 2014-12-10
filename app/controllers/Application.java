@@ -12,6 +12,7 @@ public class Application extends Controller {
     public static void index() {
     	Logger.info("index...");
     	Logger.info("index...2");
+    	Logger.info("index...3");
         render();
     }
 
