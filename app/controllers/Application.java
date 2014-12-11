@@ -14,6 +14,7 @@ public class Application extends Controller {
     	Logger.info("index...2");
     	Logger.info("index...3");
     	Logger.info("index...4");
+    	Logger.info("index...5");
         render();
     }
 
