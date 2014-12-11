@@ -13,6 +13,7 @@ public class Application extends Controller {
     	Logger.info("index...");
     	Logger.info("index...2");
     	Logger.info("index...3");
+    	Logger.info("index...4");
         render();
     }
 
