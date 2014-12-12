@@ -10,12 +10,8 @@ import models.*;
 public class Application extends Controller {
 
     public static void index() {
-    	Logger.info("index...");
-    	Logger.info("index...2");
-    	Logger.info("index...3");
-    	Logger.info("index...4");
-    	Logger.info("index...5");
-        render();
+    	String msg="index开始";
+        render(msg);
     }
 
     public static void topMenu(){
